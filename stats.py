@@ -13,17 +13,14 @@ def get_letter_count(texts):
         for letter in text:
             if letter in letters:
                 letters[letter] += 1
-                #print(True)
             elif letter not in letters:
                 letters[letter]=1
-            #print(letter)
     return(letters)
 
 def get_dict_list(letters):    
     list_dict = []
     for key, value in letters.items():    
         list_dict.append({"char":key, "num":value})
-    #return list_dict("num")
     return list_dict
 
 def list_sort(items):
