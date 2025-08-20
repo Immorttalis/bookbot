@@ -8,7 +8,7 @@ Spits out a word count and the number of occurrences of each character in descen
 
 This is what it should look like.
 
-'''
+```
 ============ BOOKBOT ============
 Analyzing book found at books/prideandprejudice.txt...
 ----------- Word Count ----------
@@ -17,4 +17,4 @@ Found 130410 total words
 e: 74451
 t: 50837
 a: 44834
-'''
+```
